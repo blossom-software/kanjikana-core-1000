@@ -1,10 +1,8 @@
 {
   "name": "Kanjikana Core 1000",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "license": "CC-BY-4.0",
   "url": "https://kanjikana.com/en/words/core-1000",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/",
-  "attribution": "Kanjikana Core 1000 by Kanjikana (https://kanjikana.com/en/words/core-1000), licensed under CC BY 4.0",
   "words": [
     {
       "rank": 1,

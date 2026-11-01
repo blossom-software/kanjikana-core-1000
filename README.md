@@ -12,11 +12,9 @@ Everything is in [`kanjikana-core-1000.json`](kanjikana-core-1000.json):
 ```json
 {
   "name": "Kanjikana Core 1000",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "license": "CC-BY-4.0",
   "url": "https://kanjikana.com/en/words/core-1000",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/",
-  "attribution": "Kanjikana Core 1000 by Kanjikana (https://kanjikana.com/en/words/core-1000), licensed under CC BY 4.0",
   "words": [
     {
       "rank": 1,
@@ -54,6 +52,13 @@ The list is meant to be the 1,000 words a beginner should learn first, in the or
 - **Curation:** closed sets enter together and in order (numbers, days of the week, family words, これ・それ・あれ). Words frequent on screen but not useful first (rough speech, police and courtroom vocabulary) are left out. Words were then reviewed one by one, added or removed, and their readings checked.
 - **Meanings:** the English meanings keep only the senses a beginner needs, edited from dictionary definitions. The other languages are translated from the English, with AI assistance.
 
+### Sources
+
+Words were selected with the help of:
+
+- the JLPT levels from [Jonathan Waller's JLPT Resources](https://www.tanos.co.uk/jlpt/), licensed under [CC BY](https://creativecommons.org/licenses/by/4.0/);
+- the frequency tags of [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project), the property of the [Electronic Dictionary Research and Development Group](https://www.edrdg.org/), used in conformance with the Group's [licence](https://www.edrdg.org/edrdg/licence.html) (CC BY-SA 4.0).
+
 ## License
 
 The Kanjikana Core 1000 is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (full text in [LICENSE](LICENSE)). You can reuse it for any purpose, including commercial use, and adapt it, as long as you credit Kanjikana with a link to the list's page.
@@ -61,8 +66,6 @@ The Kanjikana Core 1000 is licensed under [CC BY 4.0](https://creativecommons.or
 For example:
 
 > Word list: [Kanjikana Core 1000](https://kanjikana.com/en/words/core-1000) by Kanjikana, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
-The same credit line is in the file's `attribution` field.
 
 The audio on the website is not part of this repository or of the license.
 
