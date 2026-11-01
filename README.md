@@ -1,9 +1,9 @@
 # Kanjikana Core 1000
 
-A curated list of 1,000 common Japanese words, in a suggested study order, with their readings and meanings in nine languages.
+A manually curated list of 1,000 common Japanese words, in a suggested study order.
 
 - Browse the list, with audio: [kanjikana.com/en/words/core-1000](https://kanjikana.com/en/words/core-1000)
-- Study it with flashcards: [Kanjikana Core 1000 on Recall](https://recall.cards/library/decks/gqzmapoaibnvbsktneyf)
+- Study it with flashcards on Recall: [https://recall.cards/library/decks/gqzmapoaibnvbsktneyf](https://recall.cards/library/decks/gqzmapoaibnvbsktneyf)
 
 ## The file
 
@@ -45,19 +45,21 @@ Everything is in [`kanjikana-core-1000.json`](kanjikana-core-1000.json):
 
 ## How the list was made
 
-The list is meant to be the 1,000 words a beginner should learn first, in the order they will need them. That is not the same as the 1,000 most frequent words: subtitles rarely name a weekday, and the news is full of words a beginner does not need yet.
-
-- **Candidates:** the JLPT N5 and N4 vocabulary and the words dictionaries mark as common.
-- **Ranking:** how often a word is heard in film and TV subtitles, cross-checked with learner-oriented lists and the JLPT levels.
-- **Curation:** closed sets enter together and in order (numbers, days of the week, family words, これ・それ・あれ). Words frequent on screen but not useful first (rough speech, police and courtroom vocabulary) are left out. Words were then reviewed one by one, added or removed, and their readings checked.
-- **Meanings:** the English meanings keep only the senses a beginner needs, edited from dictionary definitions. The other languages are translated from the English, with AI assistance.
+1. The starting pool is all JLPT N5 and N4 words, plus the words JMdict tags as common (`ichi1`).
+2. Words are ranked using their frequency in Netflix subtitles and in newspapers (JMdict `nf` tags), their rank in the iKnow Core 2000, and their JLPT level.
+3. Particles, copulas and auxiliaries (は, が, です, ます…) are excluded from the list.
+4. Words frequent in drama but not suited to a beginner are removed: insults, violence, crime vocabulary.
+5. 19 closed sets enter together, by a fixed position: greetings, numbers, days of the week, family, colours... Some keep their own order (これ, それ, あれ).
+6. Each word was checked by hand: 13 added, 31 removed, 16 kept against the ranking, 6 corrected (meaning, reading or spelling).
+7. English meanings are generated with AI, limited to the senses a beginner needs. The other languages are translated from English with AI.
 
 ### Sources
 
 Words were selected with the help of:
 
 - the JLPT levels from [Jonathan Waller's JLPT Resources](https://www.tanos.co.uk/jlpt/), licensed under [CC BY](https://creativecommons.org/licenses/by/4.0/);
-- the frequency tags of [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project), the property of the [Electronic Dictionary Research and Development Group](https://www.edrdg.org/), used in conformance with the Group's [licence](https://www.edrdg.org/edrdg/licence.html) (CC BY-SA 4.0).
+- the frequency tags of [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project), the property of the [Electronic Dictionary Research and Development Group](https://www.edrdg.org/), used in conformance with the Group's [licence](https://www.edrdg.org/edrdg/licence.html) (CC BY-SA 4.0);
+- the word ranks of the [iKnow](https://iknow.jp/) Core 2000, used as one ranking signal. None of its content is reproduced.
 
 ## License
 
@@ -73,7 +75,9 @@ The audio on the website is not part of this repository or of the license.
 
 Suggestions are welcome: a word that should be in the list or out of it, a better place in the order, a wrong reading, an unclear meaning or translation. Open an issue, or a pull request that edits the JSON file.
 
-The file is generated from the list Kanjikana maintains, so a pull request is not merged as it is: accepted changes are applied to that list and published in the next version. Contributions are made under the same CC BY 4.0 license.
+Accepted pull requests are merged, and the change is also applied to the list on Kanjikana, from which this file is generated.
+
+By contributing, you agree to publish your contribution under CC BY 4.0.
 
 ## Versions
 
